@@ -11,6 +11,8 @@ npm run dev
 
 Create a production build with `npm run build`, then preview it using `npm run preview`.
 
+The site theme toggle is available in the main navigation. On first visit, the site follows the operating system's color preference; a choice made with the toggle is saved in local storage for later visits.
+
 ## Contact form and EmailJS setup
 
 The contact form validates the required business inquiry fields and submits the visitor's name, business name, work email, optional phone, selected service, and message to ADVENTA using EmailJS. The form shows success only after EmailJS confirms the request. A direct email link remains available as a fallback.
